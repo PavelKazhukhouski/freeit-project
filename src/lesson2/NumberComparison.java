@@ -8,21 +8,19 @@ package lesson2;
 import java.util.Scanner;
 
 
-public class numberComparison {
+public class NumberComparison {
     public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
 
         System.out.println("Enter nember a");
-        String a = terminal.nextLine();
+        int a = terminal.nextInt();
         System.out.println("Enter number b");
-        String b = terminal.nextLine();
+        int b = terminal.nextInt();
 
-        int x = Integer.parseInt(a);
-        int y = Integer.parseInt(b);
 
-        if (x < y) {
+        if (a < b) {
             System.out.println("a < b");
-        } else if (x > y) {
+        } else if (a > b) {
             System.out.println("a > b");
 
         } else {
