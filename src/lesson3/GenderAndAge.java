@@ -8,7 +8,7 @@ package lesson3;
 
 import java.util.Scanner;
 
-public class genderAndAge {
+public class GenderAndAge {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 

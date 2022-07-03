@@ -7,7 +7,7 @@ package lesson1;
 
 import java.util.Scanner;
 
-public class terminal {
+public class Terminal {
     public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
         String name = terminal.nextLine();
