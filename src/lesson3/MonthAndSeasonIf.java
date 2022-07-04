@@ -7,7 +7,7 @@ package lesson3;
 
 import java.util.Scanner;
 
-public class monthAndSeasonIf {
+public class MonthAndSeasonIf {
     public static void main(String[] args) {
 
         Scanner console = new Scanner(System.in);

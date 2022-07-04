@@ -3,7 +3,7 @@ package lesson3;
  // Написать 5 способов создания/получения строки.
 
 
-public class creatingString {
+public class CreatingString {
     public static void main(String[] args) {
         String str1 = "String";
         String str2 = new String("String");

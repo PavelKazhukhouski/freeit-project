@@ -5,7 +5,7 @@ package lesson3;
 
 import java.util.Scanner;
 
-public class monthAndSeasonSwitch {
+public class MonthAndSeasonSwitch {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Enter month number");
